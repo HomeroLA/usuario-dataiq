@@ -19,7 +19,7 @@ Se plantea realizar el siguiente ejercicio propuesto, utilizando la tecnología 
 En la carpeta users se encuentra la carpeta src, donde a su vez tiene la carpeta componentes donde realice un Modal y Usuario, el modal fue un agregado que hice porque me puse a probar con React. Dentro de la carpeta src se encuentra el App.js donde se desarrollo el resto. 
 Para poder correr esta solucion se debe realizar :
 -npm i
--npm start (deberia abrir directamente el [localhost/3000](http://localhost:3000/)
+-npm start (deberia abrir directamente el [localhost/3000](http://localhost:3000/))
 
 
 
