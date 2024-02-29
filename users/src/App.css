@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Estilo personalizado para el encabezado */
+.page-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Estilo personalizado para la tarjeta de usuario */
+.user-card {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.page-header {
+  background-color: #d3f0d8; /* Verde claro */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: opacity 0.5s ease; /* Transición de opacidad */
+}
+
+.page-header:hover {
+  opacity: 0.8; /* Reducir la opacidad al pasar el cursor sobre el recuadro */
+}
+
+.title-box {
+  background: linear-gradient(to top, #00D979, rgba(0, 217, 121, 0)); /* Degradado lineal desde #00D979 hasta transparente */
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+  padding: 10px 20px;
+  border-radius: 8px; /* Añade bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Añade una sombra suave */
+}
+
+
+.title-box {
+  cursor: pointer; /* Cambia el cursor a una mano */
+  /* Resto del CSS... */
+}
+
+
+
+
+.form-control.mb-3 {
+  margin-top: 20px; /* Ajusta el margen superior para separar el input del título */
+}
+
+
+.logo img {
+  max-width: 250px; /* Ancho máximo */
+  max-height: 300px; /* Altura máxima */
+}
+
